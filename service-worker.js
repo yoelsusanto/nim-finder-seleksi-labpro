@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nim-finder-seleksi-labpro/precache-manifest.f5cb283d994c80deb82ecb082d7ab703.js"
+  "/nim-finder-seleksi-labpro/precache-manifest.9dce69b25d9dd3ca3e473d027448a744.js"
 );
 
 self.addEventListener('message', (event) => {
