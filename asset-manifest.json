@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/nim-finder-seleksi-labpro/static/js/main.7f5e9d57.chunk.js",
+    "main.js.map": "/nim-finder-seleksi-labpro/static/js/main.7f5e9d57.chunk.js.map",
+    "runtime~main.js": "/nim-finder-seleksi-labpro/static/js/runtime~main.173a1733.js",
+    "runtime~main.js.map": "/nim-finder-seleksi-labpro/static/js/runtime~main.173a1733.js.map",
+    "static/js/2.c7a373fb.chunk.js": "/nim-finder-seleksi-labpro/static/js/2.c7a373fb.chunk.js",
+    "static/js/2.c7a373fb.chunk.js.map": "/nim-finder-seleksi-labpro/static/js/2.c7a373fb.chunk.js.map",
+    "index.html": "/nim-finder-seleksi-labpro/index.html",
+    "precache-manifest.f5cb283d994c80deb82ecb082d7ab703.js": "/nim-finder-seleksi-labpro/precache-manifest.f5cb283d994c80deb82ecb082d7ab703.js",
+    "service-worker.js": "/nim-finder-seleksi-labpro/service-worker.js"
+  }
+}
