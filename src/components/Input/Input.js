@@ -6,7 +6,6 @@ export class Input extends Component {
   onChange = event => {
     event.persist();
     this.setState({ input: event.target.value }, () => {
-      // console.log(event.target);
       this.props.onChange(event);
     });
   };
