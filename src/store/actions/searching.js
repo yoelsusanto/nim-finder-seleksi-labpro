@@ -24,7 +24,7 @@ export const search = (
 ) => async dispatch => {
   if (keyword.length > 0) {
     dispatch(searchStart(keyword));
-    const res = await stya.get("/byname", {
+    const resultName = await stya.get("/byname", {
       headers: {
         "Auth-Token": userToken
       },
@@ -34,11 +34,22 @@ export const search = (
         page: page
       }
     });
+    const resultNIM = await stya.get("/byid", {
+      headers: {
+        "Auth-Token": userToken
+      },
+      params: {
+        query: keyword,
+        count: 30,
+        page: page
+      }
+    });
 
-    const payload = await res.data.payload;
-
-    if (payload.length > 0) {
-      dispatch(searchFound(payload, isOnDemand, true));
+    const payloadName = await resultName.data.payload;
+    const payloadNIM = await resultNIM.data.payload;
+    const payloadTotal = [...payloadName, ...payloadNIM];
+    if (payloadTotal.length > 0) {
+      dispatch(searchFound(payloadTotal, isOnDemand, true));
     } else {
       // jika tidak ada hasil
       if (isOnDemand) {
