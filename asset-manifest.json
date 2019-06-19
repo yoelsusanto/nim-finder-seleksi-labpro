@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/nim-finder-seleksi-labpro/static/js/main.fab94074.chunk.js",
-    "main.js.map": "/nim-finder-seleksi-labpro/static/js/main.fab94074.chunk.js.map",
+    "main.js": "/nim-finder-seleksi-labpro/static/js/main.d5ca84e4.chunk.js",
+    "main.js.map": "/nim-finder-seleksi-labpro/static/js/main.d5ca84e4.chunk.js.map",
     "runtime~main.js": "/nim-finder-seleksi-labpro/static/js/runtime~main.173a1733.js",
     "runtime~main.js.map": "/nim-finder-seleksi-labpro/static/js/runtime~main.173a1733.js.map",
-    "static/js/2.c7a373fb.chunk.js": "/nim-finder-seleksi-labpro/static/js/2.c7a373fb.chunk.js",
-    "static/js/2.c7a373fb.chunk.js.map": "/nim-finder-seleksi-labpro/static/js/2.c7a373fb.chunk.js.map",
+    "static/js/2.679d31dc.chunk.js": "/nim-finder-seleksi-labpro/static/js/2.679d31dc.chunk.js",
+    "static/js/2.679d31dc.chunk.js.map": "/nim-finder-seleksi-labpro/static/js/2.679d31dc.chunk.js.map",
     "index.html": "/nim-finder-seleksi-labpro/index.html",
-    "precache-manifest.9dce69b25d9dd3ca3e473d027448a744.js": "/nim-finder-seleksi-labpro/precache-manifest.9dce69b25d9dd3ca3e473d027448a744.js",
+    "precache-manifest.ea1b8c34e79604736f0aaded9f6edbb0.js": "/nim-finder-seleksi-labpro/precache-manifest.ea1b8c34e79604736f0aaded9f6edbb0.js",
     "service-worker.js": "/nim-finder-seleksi-labpro/service-worker.js"
   }
 }
