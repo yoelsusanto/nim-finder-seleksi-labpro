@@ -41,3 +41,5 @@ You will also see any lint errors in the console.
 The backend API return additional status for the http request in the json body and it uses non-standard status code. It would have been better for the API to return status code using standard http status code, therefore making error catching easier.
 
 Author: Yoel Susanto - 13517014
+
+Link to application: https://yoelsusanto.github.io/nim-finder-seleksi-labpro/
